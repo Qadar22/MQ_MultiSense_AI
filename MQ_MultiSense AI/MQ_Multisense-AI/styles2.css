@@ -1,0 +1,200 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, a, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body and container styles */
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+/* Section styles */
+section {
+    padding: 60px 0;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.intro, .services, .testimonials, .news, .contact, .about, .products, .blog {
+    text-align: center;
+}
+
+.service-item, .testimonial-item, .news-item, .product-item, .blog-post, .team-member {
+    margin-bottom: 20px;
+}
+
+/* About Us styles */
+.about h1, .about h2 {
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+}
+
+.team-member p {
+    font-style: italic;
+}
+
+/* Services styles */
+.services .service-item {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.services .service-item h2 {
+    margin-bottom: 10px;
+}
+
+.services .service-item p {
+    margin-bottom: 20px;
+}
+
+/* Products styles */
+.products .product-item {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.products .product-item h2 {
+    margin-bottom: 10px;
+}
+
+.products .product-item p {
+    margin-bottom: 20px;
+}
+
+/* Blog styles */
+.blog .blog-post {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.blog .blog-post h2 {
+    margin-bottom: 10px;
+}
+
+.blog .blog-post p {
+    margin-bottom: 20px;
+}
+
+.blog .blog-post a {
+    color: #ff5733;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.blog .blog-post a:hover {
+    text-decoration: underline;
+}
+
+/* Contact form styles */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form input, .contact form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background: #ff5733;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background: #ff784d;
+}
+
+.contact .contact-info {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.contact .contact-info h2 {
+    margin-bottom: 10px;
+}
+
+.contact .contact-info p {
+    margin-bottom: 5px;
+}
+
+/* Footer styles */
+footer .contact{
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li img {
+    width: 20px;
+}
